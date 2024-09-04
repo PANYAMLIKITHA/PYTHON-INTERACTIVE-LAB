@@ -1,0 +1,418 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMrtZyYjIdEVBWFEAWwhZw/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PANYAMLIKITHA/PYTHON-INTERACTIVE-LAB-03-09-24/blob/main/FIFTH_SEM_PYTHON_CODING_PRACTICE.ipynb%2031/08/24\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "// USING LIST"
+      ],
+      "metadata": {
+        "id": "HXWa6wul_nWU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "MOVIES=[\"BAHUBALI\",\"JAANU\",\"KGF\"]\n",
+        "print(MOVIES)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "e5d7cSou-0c8",
+        "outputId": "ba33ec3a-3222-477e-97c7-bfaf631bcd6d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['BAHUBALI', 'JAANU', 'KGF']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(MOVIES[1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n0r_Eo4S_ouM",
+        "outputId": "5fc91e81-2d30-46cf-d45c-3099aecdb803"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "JAANU\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "84OUSw3rBJKD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "MOVIES.append(\"PUSHPA\")\n",
+        "print(MOVIES)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ymIDfmjRAHBr",
+        "outputId": "8c04b588-4629-49a2-afcd-3c682c608da2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['BAHUBALI', 'JAANU', 'KGF', 'PUSHPA']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "MOVIES.pop()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "HPV1CrOJAdnT",
+        "outputId": "777838bc-1e13-4cb8-855a-3c352c427cf5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'PUSHPA'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "MOVIES.extend([\"aadhi purush\",\"RRR\"])\n",
+        "print(MOVIES)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yp8C5IooAsDT",
+        "outputId": "c1704845-0a66-46f6-e652-5426dc67b6e7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['BAHUBALI', 'JAANU', 'KGF', 'PUSHPA', 'RRR', 'aadhi purush', 'RRR']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fav_movies = [\"The Holy Grail\", \"The Life of Brian\"]\n",
+        "\n",
+        "print(fav_movies[0])\n",
+        "print(fav_movies[1])"
+      ],
+      "metadata": {
+        "id": "7_DCEABmBlFt",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "a5594134-cbbe-4d00-9780-431554d2fd85"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The Holy Grail\n",
+            "The Life of Brian\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names = ['Michael', 'Terry']\n",
+        "isinstance(names, list)\n",
+        "num_names = len(names)\n",
+        "isinstance(num_names, list)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1k9zkfDcj_di",
+        "outputId": "5ec5f892-56c1-4550-9b19-27954c5da4a3"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "movies = [\n",
+        "\n",
+        "\"The Holy Grail\", 1975, \"Terry Jones & Terry Gilliam\", 91,\n",
+        "\n",
+        "[\"Graham Chapman\",[\"Michael Palin\", \"John Cleese\", \"Terry Gilliam\", \"EriC\tIdle\", \"Terry Jones\"]]]\n",
+        "print(movies[4][1][3])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZtWs88wGknNS",
+        "outputId": "04de7a72-34ee-4726-f8bb-3901b547f031"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "EriC\tIdle\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "As70uhQzlahp"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "movies = [\"The Holy Grail\", 1975, \"Terry Jones & Terry Gilliam\", 91, [\"Graham Chapman\", [\"Michael Palin\", \"John Cleese\",\n",
+        "\"Terry Gilliam\", \"Eric Idle\", \"Terry Jones\"]]]\n",
+        "\n",
+        "print(movies)\n",
+        "\n",
+        "['The Holy Grail', 1975, 'Terry Jones & Terry Gilliam', 91, ['Graham Chapman', ['Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle', 'Terry Jones']]]\n",
+        "for each_item in movies: print(each_item)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AjytKkHvk58x",
+        "outputId": "3f948f78-bc5a-4fc3-f07d-2bde0bb49e48"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['The Holy Grail', 1975, 'Terry Jones & Terry Gilliam', 91, ['Graham Chapman', ['Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle', 'Terry Jones']]]\n",
+            "The Holy Grail\n",
+            "1975\n",
+            "Terry Jones & Terry Gilliam\n",
+            "91\n",
+            "['Graham Chapman', ['Michael Palin', 'John Cleese', 'Terry Gilliam', 'Eric Idle', 'Terry Jones']]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names = ['Michael', 'Terry']\n",
+        "isinstance(names, list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JGTlU2WxlV-C",
+        "outputId": "638667fb-bf38-4b1f-c96f-3fed52f63aa1"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num_names = len(names)\n",
+        "isinstance(num_names, list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_YDCMHndlqIp",
+        "outputId": "eab98468-3d4a-48b9-f923-b4330afb948d"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random\n",
+        "\n",
+        "def play_game():\n",
+        "  \"\"\"Plays a funny and easy guessing game with the user.\"\"\"\n",
+        "\n",
+        "  number = random.randint(1, 10)\n",
+        "  guesses_left = 3\n",
+        "\n",
+        "  print(\"I'm thinking of a number between 1 and 10. Can you guess it?\")\n",
+        "\n",
+        "  while guesses_left > 0:\n",
+        "    try:\n",
+        "      guess = int(input(\"Your guess: \"))\n",
+        "    except ValueError:\n",
+        "      print(\"That's not a number! Try again.\")\n",
+        "      continue\n",
+        "\n",
+        "    if guess == number:\n",
+        "      print(\"You got it! You're a mind reader!\")\n",
+        "      return\n",
+        "\n",
+        "    elif guess < number:\n",
+        "      print(\"Too low! You're as cold as ice.\")\n",
+        "    else:\n",
+        "      print(\"Too high! You're flying too close to the sun.\")\n",
+        "\n",
+        "    guesses_left -= 1\n",
+        "    print(\"You have\", guesses_left, \"guesses left.\")\n",
+        "\n",
+        "  print(\"You ran out of guesses! The number was\", number, \". Better luck next time!\")\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "  play_game()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dV6ti3IEmV6C",
+        "outputId": "e78be38d-2f1b-4b37-bae6-8fc495c5aed1"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I'm thinking of a number between 1 and 10. Can you guess it?\n",
+            "Your guess: 9\n",
+            "Too high! You're flying too close to the sun.\n",
+            "You have 2 guesses left.\n",
+            "Your guess: 10\n",
+            "Too high! You're flying too close to the sun.\n",
+            "You have 1 guesses left.\n",
+            "Your guess: 1\n",
+            "Too low! You're as cold as ice.\n",
+            "You have 0 guesses left.\n",
+            "You ran out of guesses! The number was 8 . Better luck next time!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
